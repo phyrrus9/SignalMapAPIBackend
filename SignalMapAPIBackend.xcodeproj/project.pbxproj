@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4B4D611BD2E5B7000885DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B4D601BD2E5B7000885DC /* main.cpp */; };
+		4A4B4D8C1BD2F231000885DC /* libPocoData.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D681BD2F231000885DC /* libPocoData.31.dylib */; };
+		4A4B4D8D1BD2F231000885DC /* libPocoData.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D691BD2F231000885DC /* libPocoData.31.dylib */; };
+		4A4B4D8E1BD2F231000885DC /* libPocoDatad.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6A1BD2F231000885DC /* libPocoDatad.31.dylib */; };
+		4A4B4D8F1BD2F231000885DC /* libPocoDatad.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6B1BD2F231000885DC /* libPocoDatad.31.dylib */; };
+		4A4B4D901BD2F231000885DC /* libPocoDataSQLite.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6C1BD2F231000885DC /* libPocoDataSQLite.31.dylib */; };
+		4A4B4D911BD2F231000885DC /* libPocoDataSQLite.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6D1BD2F231000885DC /* libPocoDataSQLite.31.dylib */; };
+		4A4B4D921BD2F231000885DC /* libPocoDataSQLited.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6E1BD2F231000885DC /* libPocoDataSQLited.31.dylib */; };
+		4A4B4D931BD2F231000885DC /* libPocoDataSQLited.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D6F1BD2F231000885DC /* libPocoDataSQLited.31.dylib */; };
+		4A4B4D941BD2F231000885DC /* libPocoFoundation.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D701BD2F231000885DC /* libPocoFoundation.31.dylib */; };
+		4A4B4D951BD2F231000885DC /* libPocoFoundation.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D711BD2F231000885DC /* libPocoFoundation.31.dylib */; };
+		4A4B4D961BD2F231000885DC /* libPocoFoundationd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D721BD2F231000885DC /* libPocoFoundationd.31.dylib */; };
+		4A4B4D971BD2F231000885DC /* libPocoFoundationd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D731BD2F231000885DC /* libPocoFoundationd.31.dylib */; };
+		4A4B4D981BD2F231000885DC /* libPocoJSON.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D741BD2F231000885DC /* libPocoJSON.31.dylib */; };
+		4A4B4D991BD2F231000885DC /* libPocoJSON.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D751BD2F231000885DC /* libPocoJSON.31.dylib */; };
+		4A4B4D9A1BD2F231000885DC /* libPocoJSONd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D761BD2F231000885DC /* libPocoJSONd.31.dylib */; };
+		4A4B4D9B1BD2F231000885DC /* libPocoJSONd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D771BD2F231000885DC /* libPocoJSONd.31.dylib */; };
+		4A4B4D9C1BD2F231000885DC /* libPocoMongoDB.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D781BD2F231000885DC /* libPocoMongoDB.31.dylib */; };
+		4A4B4D9D1BD2F231000885DC /* libPocoMongoDB.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D791BD2F231000885DC /* libPocoMongoDB.31.dylib */; };
+		4A4B4D9E1BD2F231000885DC /* libPocoMongoDBd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7A1BD2F231000885DC /* libPocoMongoDBd.31.dylib */; };
+		4A4B4D9F1BD2F231000885DC /* libPocoMongoDBd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7B1BD2F231000885DC /* libPocoMongoDBd.31.dylib */; };
+		4A4B4DA01BD2F231000885DC /* libPocoNet.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7C1BD2F231000885DC /* libPocoNet.31.dylib */; };
+		4A4B4DA11BD2F231000885DC /* libPocoNet.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7D1BD2F231000885DC /* libPocoNet.31.dylib */; };
+		4A4B4DA21BD2F231000885DC /* libPocoNetd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7E1BD2F231000885DC /* libPocoNetd.31.dylib */; };
+		4A4B4DA31BD2F231000885DC /* libPocoNetd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D7F1BD2F231000885DC /* libPocoNetd.31.dylib */; };
+		4A4B4DA41BD2F231000885DC /* libPocoUtil.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D801BD2F231000885DC /* libPocoUtil.31.dylib */; };
+		4A4B4DA51BD2F231000885DC /* libPocoUtil.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D811BD2F231000885DC /* libPocoUtil.31.dylib */; };
+		4A4B4DA61BD2F231000885DC /* libPocoUtild.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D821BD2F231000885DC /* libPocoUtild.31.dylib */; };
+		4A4B4DA71BD2F231000885DC /* libPocoUtild.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D831BD2F231000885DC /* libPocoUtild.31.dylib */; };
+		4A4B4DA81BD2F231000885DC /* libPocoXML.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D841BD2F231000885DC /* libPocoXML.31.dylib */; };
+		4A4B4DA91BD2F231000885DC /* libPocoXML.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D851BD2F231000885DC /* libPocoXML.31.dylib */; };
+		4A4B4DAA1BD2F231000885DC /* libPocoXMLd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D861BD2F231000885DC /* libPocoXMLd.31.dylib */; };
+		4A4B4DAB1BD2F231000885DC /* libPocoXMLd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D871BD2F231000885DC /* libPocoXMLd.31.dylib */; };
+		4A4B4DAC1BD2F231000885DC /* libPocoZip.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D881BD2F231000885DC /* libPocoZip.31.dylib */; };
+		4A4B4DAD1BD2F231000885DC /* libPocoZip.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D891BD2F231000885DC /* libPocoZip.31.dylib */; };
+		4A4B4DAE1BD2F231000885DC /* libPocoZipd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D8A1BD2F231000885DC /* libPocoZipd.31.dylib */; };
+		4A4B4DAF1BD2F232000885DC /* libPocoZipd.31.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4D8B1BD2F231000885DC /* libPocoZipd.31.dylib */; };
+		4A4B4DB61BD2F30E000885DC /* libpthread.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4DB51BD2F30E000885DC /* libpthread.tbd */; };
+		4A4B4DB81BD2F331000885DC /* libsocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B4DB71BD2F331000885DC /* libsocket.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A4B4D5B1BD2E5B7000885DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A4B4D5D1BD2E5B7000885DC /* SignalMapAPIBackend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SignalMapAPIBackend; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4B4D601BD2E5B7000885DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A4B4D681BD2F231000885DC /* libPocoData.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoData.31.dylib; path = /usr/local/lib/libPocoData.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D691BD2F231000885DC /* libPocoData.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoData.31.dylib; path = /usr/local/lib/libPocoData.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6A1BD2F231000885DC /* libPocoDatad.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDatad.31.dylib; path = /usr/local/lib/libPocoDatad.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6B1BD2F231000885DC /* libPocoDatad.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDatad.31.dylib; path = /usr/local/lib/libPocoDatad.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6C1BD2F231000885DC /* libPocoDataSQLite.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDataSQLite.31.dylib; path = /usr/local/lib/libPocoDataSQLite.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6D1BD2F231000885DC /* libPocoDataSQLite.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDataSQLite.31.dylib; path = /usr/local/lib/libPocoDataSQLite.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6E1BD2F231000885DC /* libPocoDataSQLited.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDataSQLited.31.dylib; path = /usr/local/lib/libPocoDataSQLited.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D6F1BD2F231000885DC /* libPocoDataSQLited.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoDataSQLited.31.dylib; path = /usr/local/lib/libPocoDataSQLited.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D701BD2F231000885DC /* libPocoFoundation.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoFoundation.31.dylib; path = /usr/local/lib/libPocoFoundation.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D711BD2F231000885DC /* libPocoFoundation.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoFoundation.31.dylib; path = /usr/local/lib/libPocoFoundation.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D721BD2F231000885DC /* libPocoFoundationd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoFoundationd.31.dylib; path = /usr/local/lib/libPocoFoundationd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D731BD2F231000885DC /* libPocoFoundationd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoFoundationd.31.dylib; path = /usr/local/lib/libPocoFoundationd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D741BD2F231000885DC /* libPocoJSON.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoJSON.31.dylib; path = /usr/local/lib/libPocoJSON.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D751BD2F231000885DC /* libPocoJSON.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoJSON.31.dylib; path = /usr/local/lib/libPocoJSON.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D761BD2F231000885DC /* libPocoJSONd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoJSONd.31.dylib; path = /usr/local/lib/libPocoJSONd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D771BD2F231000885DC /* libPocoJSONd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoJSONd.31.dylib; path = /usr/local/lib/libPocoJSONd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D781BD2F231000885DC /* libPocoMongoDB.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoMongoDB.31.dylib; path = /usr/local/lib/libPocoMongoDB.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D791BD2F231000885DC /* libPocoMongoDB.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoMongoDB.31.dylib; path = /usr/local/lib/libPocoMongoDB.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7A1BD2F231000885DC /* libPocoMongoDBd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoMongoDBd.31.dylib; path = /usr/local/lib/libPocoMongoDBd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7B1BD2F231000885DC /* libPocoMongoDBd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoMongoDBd.31.dylib; path = /usr/local/lib/libPocoMongoDBd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7C1BD2F231000885DC /* libPocoNet.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoNet.31.dylib; path = /usr/local/lib/libPocoNet.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7D1BD2F231000885DC /* libPocoNet.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoNet.31.dylib; path = /usr/local/lib/libPocoNet.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7E1BD2F231000885DC /* libPocoNetd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoNetd.31.dylib; path = /usr/local/lib/libPocoNetd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D7F1BD2F231000885DC /* libPocoNetd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoNetd.31.dylib; path = /usr/local/lib/libPocoNetd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D801BD2F231000885DC /* libPocoUtil.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoUtil.31.dylib; path = /usr/local/lib/libPocoUtil.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D811BD2F231000885DC /* libPocoUtil.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoUtil.31.dylib; path = /usr/local/lib/libPocoUtil.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D821BD2F231000885DC /* libPocoUtild.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoUtild.31.dylib; path = /usr/local/lib/libPocoUtild.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D831BD2F231000885DC /* libPocoUtild.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoUtild.31.dylib; path = /usr/local/lib/libPocoUtild.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D841BD2F231000885DC /* libPocoXML.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoXML.31.dylib; path = /usr/local/lib/libPocoXML.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D851BD2F231000885DC /* libPocoXML.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoXML.31.dylib; path = /usr/local/lib/libPocoXML.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D861BD2F231000885DC /* libPocoXMLd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoXMLd.31.dylib; path = /usr/local/lib/libPocoXMLd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D871BD2F231000885DC /* libPocoXMLd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoXMLd.31.dylib; path = /usr/local/lib/libPocoXMLd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D881BD2F231000885DC /* libPocoZip.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoZip.31.dylib; path = /usr/local/lib/libPocoZip.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D891BD2F231000885DC /* libPocoZip.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoZip.31.dylib; path = /usr/local/lib/libPocoZip.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D8A1BD2F231000885DC /* libPocoZipd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoZipd.31.dylib; path = /usr/local/lib/libPocoZipd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4D8B1BD2F231000885DC /* libPocoZipd.31.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPocoZipd.31.dylib; path = /usr/local/lib/libPocoZipd.31.dylib; sourceTree = "<absolute>"; };
+		4A4B4DB51BD2F30E000885DC /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = usr/lib/libpthread.tbd; sourceTree = SDKROOT; };
+		4A4B4DB71BD2F331000885DC /* libsocket.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsocket.dylib; path = /usr/local/lib/libsocket.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4B4D5A1BD2E5B7000885DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4B4DB81BD2F331000885DC /* libsocket.dylib in Frameworks */,
+				4A4B4DB61BD2F30E000885DC /* libpthread.tbd in Frameworks */,
+				4A4B4D8C1BD2F231000885DC /* libPocoData.31.dylib in Frameworks */,
+				4A4B4D8D1BD2F231000885DC /* libPocoData.31.dylib in Frameworks */,
+				4A4B4D8E1BD2F231000885DC /* libPocoDatad.31.dylib in Frameworks */,
+				4A4B4D8F1BD2F231000885DC /* libPocoDatad.31.dylib in Frameworks */,
+				4A4B4D901BD2F231000885DC /* libPocoDataSQLite.31.dylib in Frameworks */,
+				4A4B4D911BD2F231000885DC /* libPocoDataSQLite.31.dylib in Frameworks */,
+				4A4B4D921BD2F231000885DC /* libPocoDataSQLited.31.dylib in Frameworks */,
+				4A4B4D931BD2F231000885DC /* libPocoDataSQLited.31.dylib in Frameworks */,
+				4A4B4D941BD2F231000885DC /* libPocoFoundation.31.dylib in Frameworks */,
+				4A4B4D951BD2F231000885DC /* libPocoFoundation.31.dylib in Frameworks */,
+				4A4B4D961BD2F231000885DC /* libPocoFoundationd.31.dylib in Frameworks */,
+				4A4B4D971BD2F231000885DC /* libPocoFoundationd.31.dylib in Frameworks */,
+				4A4B4D981BD2F231000885DC /* libPocoJSON.31.dylib in Frameworks */,
+				4A4B4D991BD2F231000885DC /* libPocoJSON.31.dylib in Frameworks */,
+				4A4B4D9A1BD2F231000885DC /* libPocoJSONd.31.dylib in Frameworks */,
+				4A4B4D9B1BD2F231000885DC /* libPocoJSONd.31.dylib in Frameworks */,
+				4A4B4D9C1BD2F231000885DC /* libPocoMongoDB.31.dylib in Frameworks */,
+				4A4B4D9D1BD2F231000885DC /* libPocoMongoDB.31.dylib in Frameworks */,
+				4A4B4D9E1BD2F231000885DC /* libPocoMongoDBd.31.dylib in Frameworks */,
+				4A4B4D9F1BD2F231000885DC /* libPocoMongoDBd.31.dylib in Frameworks */,
+				4A4B4DA01BD2F231000885DC /* libPocoNet.31.dylib in Frameworks */,
+				4A4B4DA11BD2F231000885DC /* libPocoNet.31.dylib in Frameworks */,
+				4A4B4DA21BD2F231000885DC /* libPocoNetd.31.dylib in Frameworks */,
+				4A4B4DA31BD2F231000885DC /* libPocoNetd.31.dylib in Frameworks */,
+				4A4B4DA41BD2F231000885DC /* libPocoUtil.31.dylib in Frameworks */,
+				4A4B4DA51BD2F231000885DC /* libPocoUtil.31.dylib in Frameworks */,
+				4A4B4DA61BD2F231000885DC /* libPocoUtild.31.dylib in Frameworks */,
+				4A4B4DA71BD2F231000885DC /* libPocoUtild.31.dylib in Frameworks */,
+				4A4B4DA81BD2F231000885DC /* libPocoXML.31.dylib in Frameworks */,
+				4A4B4DA91BD2F231000885DC /* libPocoXML.31.dylib in Frameworks */,
+				4A4B4DAA1BD2F231000885DC /* libPocoXMLd.31.dylib in Frameworks */,
+				4A4B4DAB1BD2F231000885DC /* libPocoXMLd.31.dylib in Frameworks */,
+				4A4B4DAC1BD2F231000885DC /* libPocoZip.31.dylib in Frameworks */,
+				4A4B4DAD1BD2F231000885DC /* libPocoZip.31.dylib in Frameworks */,
+				4A4B4DAE1BD2F231000885DC /* libPocoZipd.31.dylib in Frameworks */,
+				4A4B4DAF1BD2F232000885DC /* libPocoZipd.31.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4B4D541BD2E5B6000885DC = {
+			isa = PBXGroup;
+			children = (
+				4A4B4DB01BD2F243000885DC /* lib */,
+				4A4B4D5F1BD2E5B7000885DC /* SignalMapAPIBackend */,
+				4A4B4D5E1BD2E5B7000885DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4B4D5E1BD2E5B7000885DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B4D5D1BD2E5B7000885DC /* SignalMapAPIBackend */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4B4D5F1BD2E5B7000885DC /* SignalMapAPIBackend */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B4D601BD2E5B7000885DC /* main.cpp */,
+			);
+			path = SignalMapAPIBackend;
+			sourceTree = "<group>";
+		};
+		4A4B4DB01BD2F243000885DC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B4DB71BD2F331000885DC /* libsocket.dylib */,
+				4A4B4DB51BD2F30E000885DC /* libpthread.tbd */,
+				4A4B4D681BD2F231000885DC /* libPocoData.31.dylib */,
+				4A4B4D691BD2F231000885DC /* libPocoData.31.dylib */,
+				4A4B4D6A1BD2F231000885DC /* libPocoDatad.31.dylib */,
+				4A4B4D6B1BD2F231000885DC /* libPocoDatad.31.dylib */,
+				4A4B4D6C1BD2F231000885DC /* libPocoDataSQLite.31.dylib */,
+				4A4B4D6D1BD2F231000885DC /* libPocoDataSQLite.31.dylib */,
+				4A4B4D6E1BD2F231000885DC /* libPocoDataSQLited.31.dylib */,
+				4A4B4D6F1BD2F231000885DC /* libPocoDataSQLited.31.dylib */,
+				4A4B4D701BD2F231000885DC /* libPocoFoundation.31.dylib */,
+				4A4B4D711BD2F231000885DC /* libPocoFoundation.31.dylib */,
+				4A4B4D721BD2F231000885DC /* libPocoFoundationd.31.dylib */,
+				4A4B4D731BD2F231000885DC /* libPocoFoundationd.31.dylib */,
+				4A4B4D741BD2F231000885DC /* libPocoJSON.31.dylib */,
+				4A4B4D751BD2F231000885DC /* libPocoJSON.31.dylib */,
+				4A4B4D761BD2F231000885DC /* libPocoJSONd.31.dylib */,
+				4A4B4D771BD2F231000885DC /* libPocoJSONd.31.dylib */,
+				4A4B4D781BD2F231000885DC /* libPocoMongoDB.31.dylib */,
+				4A4B4D791BD2F231000885DC /* libPocoMongoDB.31.dylib */,
+				4A4B4D7A1BD2F231000885DC /* libPocoMongoDBd.31.dylib */,
+				4A4B4D7B1BD2F231000885DC /* libPocoMongoDBd.31.dylib */,
+				4A4B4D7C1BD2F231000885DC /* libPocoNet.31.dylib */,
+				4A4B4D7D1BD2F231000885DC /* libPocoNet.31.dylib */,
+				4A4B4D7E1BD2F231000885DC /* libPocoNetd.31.dylib */,
+				4A4B4D7F1BD2F231000885DC /* libPocoNetd.31.dylib */,
+				4A4B4D801BD2F231000885DC /* libPocoUtil.31.dylib */,
+				4A4B4D811BD2F231000885DC /* libPocoUtil.31.dylib */,
+				4A4B4D821BD2F231000885DC /* libPocoUtild.31.dylib */,
+				4A4B4D831BD2F231000885DC /* libPocoUtild.31.dylib */,
+				4A4B4D841BD2F231000885DC /* libPocoXML.31.dylib */,
+				4A4B4D851BD2F231000885DC /* libPocoXML.31.dylib */,
+				4A4B4D861BD2F231000885DC /* libPocoXMLd.31.dylib */,
+				4A4B4D871BD2F231000885DC /* libPocoXMLd.31.dylib */,
+				4A4B4D881BD2F231000885DC /* libPocoZip.31.dylib */,
+				4A4B4D891BD2F231000885DC /* libPocoZip.31.dylib */,
+				4A4B4D8A1BD2F231000885DC /* libPocoZipd.31.dylib */,
+				4A4B4D8B1BD2F231000885DC /* libPocoZipd.31.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4B4D5C1BD2E5B7000885DC /* SignalMapAPIBackend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4B4D641BD2E5B7000885DC /* Build configuration list for PBXNativeTarget "SignalMapAPIBackend" */;
+			buildPhases = (
+				4A4B4D591BD2E5B7000885DC /* Sources */,
+				4A4B4D5A1BD2E5B7000885DC /* Frameworks */,
+				4A4B4D5B1BD2E5B7000885DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalMapAPIBackend;
+			productName = SignalMapAPIBackend;
+			productReference = 4A4B4D5D1BD2E5B7000885DC /* SignalMapAPIBackend */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4B4D551BD2E5B6000885DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ethan Laur";
+				TargetAttributes = {
+					4A4B4D5C1BD2E5B7000885DC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A4B4D581BD2E5B6000885DC /* Build configuration list for PBXProject "SignalMapAPIBackend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A4B4D541BD2E5B6000885DC;
+			productRefGroup = 4A4B4D5E1BD2E5B7000885DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4B4D5C1BD2E5B7000885DC /* SignalMapAPIBackend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4B4D591BD2E5B7000885DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4B4D611BD2E5B7000885DC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A4B4D621BD2E5B7000885DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A4B4D631BD2E5B7000885DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A4B4D651BD2E5B7000885DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A4B4D661BD2E5B7000885DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4B4D581BD2E5B6000885DC /* Build configuration list for PBXProject "SignalMapAPIBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4B4D621BD2E5B7000885DC /* Debug */,
+				4A4B4D631BD2E5B7000885DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4B4D641BD2E5B7000885DC /* Build configuration list for PBXNativeTarget "SignalMapAPIBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4B4D651BD2E5B7000885DC /* Debug */,
+				4A4B4D661BD2E5B7000885DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4B4D551BD2E5B6000885DC /* Project object */;
+}
